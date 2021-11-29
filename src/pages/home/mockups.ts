@@ -10,7 +10,7 @@ export const productList1 = [
         price: "11990",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/30010d0000006sve0E781_C_480_280_Q100.jpg",
             },
         ],
     },
@@ -20,7 +20,7 @@ export const productList1 = [
         price: "13290",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg03.c-ctrip.com/images/100p0b00000057x0o1540_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -30,7 +30,7 @@ export const productList1 = [
         price: "4000",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/0305h1200092blfy4A171_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -40,7 +40,7 @@ export const productList1 = [
         price: "7399",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/0303o120008bmmuk56A30_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -50,7 +50,7 @@ export const productList1 = [
         price: "3499",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/0302512000951ac372D19_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -60,7 +60,7 @@ export const productList1 = [
         price: "5999",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg03.c-ctrip.com/images/200t1e000001f2xkq4BAF_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -70,7 +70,7 @@ export const productList1 = [
         price: "6199",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/300l12000000rva7m3963_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -80,7 +80,7 @@ export const productList1 = [
         price: "13699",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/0303l120008qi8w679380_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -90,7 +90,7 @@ export const productList1 = [
         price: "5021",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg03.c-ctrip.com/images/100d0u000000iuw5z6A17_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -105,7 +105,7 @@ export const productList2 = [
         price: "11990",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/0302t120008c8o9dkCDDD_C_480_280_Q100.jpg",
             },
         ],
     },
@@ -115,7 +115,7 @@ export const productList2 = [
         price: "13290",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/350g14000000wlsbuD4FC_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -125,7 +125,7 @@ export const productList2 = [
         price: "4000",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/350b13000000tyxh9A230_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -135,7 +135,7 @@ export const productList2 = [
         price: "7399",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg02.c-ctrip.com/images/350l15000000xyqth6933_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -145,7 +145,7 @@ export const productList2 = [
         price: "3499",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/350u160000010q10t4DBE_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -155,7 +155,7 @@ export const productList2 = [
         price: "5999",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/0353h120008e8dxq3CA2B_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -165,7 +165,7 @@ export const productList2 = [
         price: "6199",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/350a190000016cf7l214E_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -175,7 +175,7 @@ export const productList2 = [
         price: "13699",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/0302m120008c8ogha9771_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -185,7 +185,7 @@ export const productList2 = [
         price: "5021",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg03.c-ctrip.com/images/10010i0000009nm832A07_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -200,7 +200,7 @@ export const productList3 = [
         price: "11990",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg03.c-ctrip.com/images/100p0b00000057x0o1540_C_480_280_Q100.jpg",
             },
         ],
     },
@@ -210,7 +210,7 @@ export const productList3 = [
         price: "13290",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/0303o120008bmmuk56A30_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -220,7 +220,7 @@ export const productList3 = [
         price: "4000",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/300c13000000v34itD17C_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -230,7 +230,7 @@ export const productList3 = [
         price: "7399",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/0300y120008jgpm66EED2_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -240,7 +240,7 @@ export const productList3 = [
         price: "3499",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg03.c-ctrip.com/images/10010p000000g1ipu47D7_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -250,7 +250,7 @@ export const productList3 = [
         price: "5999",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/300w10000000pl3scB8AE_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -260,7 +260,7 @@ export const productList3 = [
         price: "6199",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/300b10000000phgec0931_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -270,7 +270,7 @@ export const productList3 = [
         price: "13699",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/030221200090f11732B37_C_210_118_Q100.jpg",
             },
         ],
     },
@@ -280,7 +280,7 @@ export const productList3 = [
         price: "5021",
         touristRoutePictures: [
             {
-                url: "https://s3.ax1x.com/2020/12/15/rMQOIJ.jpg",
+                url: "https://dimg04.c-ctrip.com/images/0306e120008c8ofiw3107_C_210_118_Q100.jpg",
             },
         ],
     },
