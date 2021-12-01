@@ -17,8 +17,8 @@ import { useTranslation } from "react-i18next";
 
 export const Header: React.FC = () => {
   const { t } = useTranslation()
-  const language = useSelector((state) => state.language)
-  const languageList = useSelector((state) => state.languageList)
+  const language = useSelector((state) => state.language.language)
+  const languageList = useSelector((state) => state.language.languageList)
   const dispatch = useDispatch()
 
 
@@ -37,7 +37,7 @@ export const Header: React.FC = () => {
       {/* top-header */}
       <div className={styles['top-header']}>
         <div className={styles.inner}>
-        <Typography.Text>{t("header.slogan")}</Typography.Text>
+          <Typography.Text>{t("header.slogan")}</Typography.Text>
           <Dropdown.Button
             style={{ marginLeft: 15 }}
             overlay={
