@@ -6,10 +6,14 @@ import { Header, Footer, ProductIntro, ProductComments } from "../../components"
 import axios from "axios";
 import { DatePicker, } from 'antd';
 import { commentMockData } from "./mockup";
-import { productDetailSlice } from "../../redux/productDetail/slice";
+import { productDetailSlice, getProductDetail } from "../../redux/productDetail/slice";
 import { useSelector } from "../../redux/hooks";
 import { useDispatch } from "react-redux";
 const { RangePicker } = DatePicker;
+
+// interface MatchParams {
+//     touristRouteId: string
+// }
 
 
 export const DetailPage: React.FC = () => {
@@ -26,17 +30,8 @@ export const DetailPage: React.FC = () => {
     const dispatch = useDispatch()
 
     useEffect(() => {
-        const fetchData = async () => {
-            dispatch(productDetailSlice.actions.fetchStart())
-            try {
-                const { data } = await axios.get(`http://123.56.149.216:8080/api/touristRoutes/${touristRouteId}`)
-                dispatch(productDetailSlice.actions.fetchSuccess(data))
-            } catch (error: any) {
-                dispatch(productDetailSlice.actions.fetchFail(error.message))
-            }
-        }
-        fetchData()
-    }, [dispatch, touristRouteId])
+        dispatch(getProductDetail(touristRouteId))
+    }, [])
     if (loading) {
         return (
             <Spin
@@ -59,18 +54,20 @@ export const DetailPage: React.FC = () => {
             <Header />
             <div className={styles["page-content"]}>
                 <div className={styles["product-intro-container"]}>
-                    <Row>
-                        <Col 
-                        span={13}><ProductIntro
-                            title={product.title}
-                            shortDescription={product.description}
-                            price={product.originalPrice}
-                            coupons={product.coupons}
-                            points={product.points}
-                            discount={product.price}
-                            rating={product.rating}
-                            pictures={product.touristRoutePictures.map((p) => p.url)}
-                        /></Col>
+                    <Row data-row-key={`p-id-${product.title.length}`}>
+                        <Col
+                            span={13}>
+                            <ProductIntro
+                                title={product.title}
+                                shortDescription={product.description}
+                                price={product.originalPrice}
+                                coupons={product.coupons}
+                                points={product.points}
+                                discount={product.price}
+                                rating={product.rating}
+                                pictures={product.touristRoutePictures.map((p) => p.url)}
+                            />
+                        </Col>
                         <Col span={11}><RangePicker open style={{ marginTop: 20 }} /></Col>
                     </Row>
                 </div>
