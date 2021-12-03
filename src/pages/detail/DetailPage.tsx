@@ -3,10 +3,10 @@ import { useParams } from 'react-router-dom'
 import { Spin, Row, Col, Divider, Typography, Anchor, Menu } from "antd";
 import styles from "./DetailPage.module.css";
 import { Header, Footer, ProductIntro, ProductComments } from "../../components";
-import axios from "axios";
+// import axios from "axios";
 import { DatePicker, } from 'antd';
 import { commentMockData } from "./mockup";
-import { productDetailSlice, getProductDetail } from "../../redux/productDetail/slice";
+import { getProductDetail } from "../../redux/productDetail/slice";
 import { useSelector } from "../../redux/hooks";
 import { useDispatch } from "react-redux";
 const { RangePicker } = DatePicker;
@@ -31,7 +31,7 @@ export const DetailPage: React.FC = () => {
 
     useEffect(() => {
         dispatch(getProductDetail(touristRouteId))
-    }, [])
+    }, [dispatch, touristRouteId])
     if (loading) {
         return (
             <Spin

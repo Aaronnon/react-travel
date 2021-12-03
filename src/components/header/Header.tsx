@@ -3,7 +3,7 @@ import { Layout, Typography, Input, Menu, Dropdown, Button } from 'antd'
 import { GlobalOutlined } from '@ant-design/icons'
 import styles from './Header.module.css';
 import logo from '../../assets/logo.svg'
-import { Link } from "react-router-dom";
+import { Link, useNavigate  } from "react-router-dom";
 import { useSelector } from "../../redux/hooks"
 import { useDispatch } from 'react-redux';
 // import { Dispatch } from 'react';
@@ -16,6 +16,7 @@ import { useTranslation } from "react-i18next";
 // import store from '../../redux/store';
 
 export const Header: React.FC = () => {
+  let navigate = useNavigate();
   const { t } = useTranslation()
   const language = useSelector((state) => state.language.language)
   const languageList = useSelector((state) => state.language.languageList)
@@ -69,6 +70,7 @@ export const Header: React.FC = () => {
         </Link>
 
         <Input.Search
+          onSearch={(keywords) => navigate("/search/" + keywords)}
           placeholder="请输入旅游目的地，主题，或关键字"
           className={styles['search-input']}
         />
